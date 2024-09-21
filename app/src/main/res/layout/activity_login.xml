@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@mipmap/pg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login">
+
+    <TextView
+        android:id="@+id/text_login"
+        android:layout_width="165dp"
+        android:layout_height="57dp"
+        android:gravity="center"
+        android:text="@string/login"
+        android:textColor="#05D0EA"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.066" />
+
+    <TextView
+        android:id="@+id/slogan"
+        android:layout_width="274dp"
+        android:layout_height="75dp"
+        android:gravity="center"
+        android:text="@string/slogan"
+        android:textSize="20sp"
+        android:textColor="#EC115B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.349" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="129dp"
+        android:layout_height="107dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.182"
+        app:srcCompat="@mipmap/gt" />
+
+    <CheckBox
+        android:id="@+id/rember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="记住密码"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.891"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.705" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="393dp"
+        android:layout_height="57dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.345">
+
+        <Button
+            android:id="@+id/but_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:text="@string/login" />
+
+        <Button
+            android:id="@+id/but_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="@string/register" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="388dp"
+        android:layout_height="124dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.391"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/slogan"
+        app:layout_constraintVertical_bias="0.028">
+
+        <EditText
+            android:id="@+id/edit_username"
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/shape_input"
+            android:drawableLeft="@drawable/person"
+            android:ems="10"
+            android:hint="@string/hint1"
+            android:inputType="text"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/edit_Password"
+            android:layout_width="308dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/shape_input"
+            android:drawableLeft="@drawable/lock"
+            android:ems="10"
+            android:hint="@string/hint2"
+            android:inputType="textPassword"
+            android:minHeight="48dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

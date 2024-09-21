@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">软件2101 刘玉政</string>
+    <string name="title_home">首页</string>
+    <string name="title_dashboard">自定义添加页面</string>
+    <string name="title_notifications">个人中心</string>
+    <string name="slogan">电吉他-听我想听！编我想听！随心所动！</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="empty">清空</string>
+    <string name="hint1">请输入用户名:</string>
+    <string name="hint2">请输入密码：</string>
+    <string name="achieve">完成注册</string>
+    <string name="cancel">取消注册</string>
+    <string name="zhu">键盘上的 1对应do，键盘上的 2对应re，键盘上的 3对应mi，键盘上的 4对应fa，键盘上的 5对应so，键盘上的 6对应la，键盘上的 7对应si，键盘上的 8对应高音do，键盘上的 9对应高音re，键盘上的 0对应高音mi，琴谱中的空格或其它字符均可代表停顿</string>
+    <string name="tish">请输入曲谱字符串："最多50个字符"</string>
+    <string name="tip1">请输入你要搜索的乐谱的名称</string>
+    <string name="tip2">请编辑乐谱的名称</string>
+    <string name="tip3">乐谱操作界面</string>
+    <string name="tip4">进行你的操作吧！</string>
+    <string name="updage">更新</string>
+    <string name="delete">删除</string>
+    <string name="release">发布</string>
+</resources>
