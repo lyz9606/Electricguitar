@@ -7,4 +7,9 @@
 （3）用户浏览和播放：用户通过账号密码登录成功后可以浏览和播放已有曲普，用户可以搜索查询自己想要的曲谱进行播放。
 （4）用户自由创建：用户可以通过自己的输入，创建属于带有自己特色的音谱，可以选择将此音谱保存。
 （5）用户对已创建的乐谱进行操作：用户可对自己已经创建的曲谱进行更改，删除和发布。
+
+
 ![image](https://github.com/user-attachments/assets/b4d09a47-f2cd-4a4e-968e-4f2e5f4f9825)
+![image](https://github.com/user-attachments/assets/88d762c4-6fcc-47c2-b6ff-8c202b2d8d06)
+![image](https://github.com/user-attachments/assets/7af9488a-af9b-4795-ae2b-8c37cd3250b1)
+![image](https://github.com/user-attachments/assets/307d6ed9-56e6-47c8-ae23-5eb0361fc4b1)
